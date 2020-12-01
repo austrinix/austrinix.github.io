@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<head>
+    <title>A.U.S.T.R.I.N.I.X | CyberSheriff</title>
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+</head>
+<html lang="en">
+    
+    <div class="dotty" style="text-align: center;">
+        
+      
+      <body>
+          <!--STARTING OF CSS.-->
+          <style>
+              @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+               body {
+                font-family: 'Quicksand', sans-serif;
+                color: white;
+                text-align: center;
+                background-color:#3C3C3C;
+               }
+               .box {
+                   background-color: red;
+               }
+               .glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+.box2 {
+    background-color: #3C3C3C;
+}
+.dotty {
+    float: center;
+}
+img {
+    width: 13px;
+    height: 13px;
+}
+.mimo {
+    background-color: #66A182;
+}
+a {
+    color: white;
+}
+          </style>
+          <!--ENDING OF CSS.-->
+          <!--STARTING OF JAVASCRIPT.-->
+          <script>
+              let i=("10" + i)
+              function main(i){
+                 for(1 in i){
+                     console.log(i + i === i);
+                 }
+              }
+          </script>
+          <!--ENDING OF JAVASCRIPT.-->
+          <div style="text-align: center;" class="box">
+          <h1>CyberSheriff</h1>
+          <p>Stay safe on the internet because of our cool<br>
+              extension we keep you safe and sound on the 
+              internet<br>
+              because we are cool and here are the links to
+              download it! Or<br> go back to <a href="index.html">A.U.S.T.R.I.N.I.X?</a>
+              
+          </p>
+          <br>
+          <br>
+         </div>
+         <div class="box2">
+            <h1>WHAT IS TYPOSQUATTING?</h1>
+            <p>Typosquatting is a type of internet trick-threat where when you<br>
+                put a typo in the URL then it goes to a dangerous site! Example:<br>
+                instead of www.google.com you use www.gooogle.com! See? Weird!<br>
+                <br>
+                <br>
+            </p>
+        </div>
+        <div style="background-color: #66A182;">
+        <h1>DOWNLOADS</h1>
+        <p>Download for Firefox only but Google Chrome<br>
+            and Microsoft Edge will be soon released<br>
+            repeat... Download for Firefox only but Google Chrome<br>
+            and Microsoft Edge will be soon released<br>
+        </p>
+        <div class="dotty" style="text-align: center;">
+            
+        <button class="glow-on-hover" type="button" onclick="alert('The extension of Microsoft Edge is coming soon!')">EDGE       <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Microsoft_Edge_logo_(2019).svg/1200px-Microsoft_Edge_logo_(2019).svg.png"></button>
+        <button class="glow-on-hover" type="button" onclick="window.open('https://addons.mozilla.org/en-US/firefox/addon/austrinix-safe-browsing/')">FIREFOX      <img src="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo-sm.f2523d97cbe0.png"></button>
+        <br>
+        <br>
+       </div>
+       </div>
+    </div>
+    <script src="//code.tidio.co/3mc2ongyfilxjdrmie8qrvewnoexhsiy.js" async></script>
+      </body>
+</html>
