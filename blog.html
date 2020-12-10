@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>AUSTRINIX | Blog</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body>
+  <style>
+    .overlay {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 0;
+      top: 0;
+      left: 0;
+      background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0, 0.9);
+      overflow-x: hidden;
+      transition: 1s;
+    }
+    
+    .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+    
+    .overlay a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: grey;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .overlay a:hover, .overlay a:focus {
+      color: var(--backg);
+    }
+    
+    .overlay .closebtn {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .overlay a {font-size: 20px}
+      .overlay .closebtn {
+      font-size: 40px;
+      top: 1px;
+      right: 3px;
+      }
+    }
+    </style>
+    </head>
+    <body>
+    <br>
+    <br>
+    <center>
+    <div id="myNav" class="overlay" style="text-align: left;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="https://austrinix.github.io">AUSTRINIX</a>
+        <a href="https://austrinix.github.io/index2.html">ASTERAL</a>
+        <a href="https://austrinix.github.io/cybersheriff.html">CyberSheriff</a>
+        <a href="https://austrinix.github.io/support.html">Contact</a>
+      </div>
+    </div>
+    </center>
+    
+    
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    
+    <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>MY BLOG</b></h1>
+  <p>Welcome to the blog of <span class="w3-tag">AUSTRINIX!</span></p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTl8fGNvZGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Nature" style="width:100%; height:400px;">
+    <div class="w3-container">
+      <h3><b>HOW TO REMOVE MALWARE?</b></h3>
+      <h5>How to remove malware? <span class="w3-opacity">December 10, 2020</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>
+        The WannaCry ransomware attack's main exploit was an exploit that you didn't even need to do anything to get infected. And to protect against these viruses follow these steps:
+        Always have an antivirus: Windows has an built in antivirus but it is not as great so use third party software, some good ones are: Malwarebytes, Avast, McAfee, BitDefender (highly recommended), AVG, ZoneAlarm, Avira, TotalAV etc. For MacOS/OS X you don't need an antivirus it has a strong built in Firewall and Antivirus and Linux needs no antivirus because it is completely risk free! A free antivirus setup could be BitDefender Free and Windows Firewall, ZoneAlarm Firewall or Comodo Firewall!
+        
+        Backup your files, back up your files with clouds like OneDrive, Dropbox and...
+        
+        
+      </p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border" onclick="window.open('https://austrinix.github.io/post.html')"><b>READ MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzJ8fGNvZGV8ZW58MHx8MHw%3D&auto=format&fit=crop&w=500&q=60" alt="Norway" style="width:100%">
+    <div class="w3-container">
+      <h3><b>BLOG ENTRY</b></h3>
+      <h5>Title description, <span class="w3-opacity">December 10, 2020</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>
+        AUSTRINIX CyberSheriff or AUSTRINIX Safe Browsing is packed with security essentials which keep you<br>
+        Safe online that is because it has a URL blacklist which it checks for malicious websites so you can never<br>
+        Get infected again! Its process is really fast and good so you don’t have to worry about that, note...<br>
+    </p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border" onclick="window.open('https://austrinix.github.io/post1.html')"><b>READ MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">0</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" style="width:100%">
+    <div class="w3-container" id="id" style="color: var(--colorx);">
+      <h4><b>NEW LAUNCH!</b></h4>
+      <p>
+        We have launched a new piece of software named... DevSight IDE! We are still updating it.
+       <a href="https://austrinix.github.io/downloads.html">Here at the download URL</a>
+       you can download it! Happy coding!
+      </p>
+    </div>
+  </div><hr>
+  
+  <!-- Posts -->
+  <div class="w3-card w3-margin">
+    <div class="">
+      <h4>Gallery</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable">
+      <li class="w3-padding-16">
+        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzJ8fGNvZGV8ZW58MHx8MHw%3D&auto=format&fit=crop&w=500&q=60" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Just a</span><br>
+        <span>Laptop with code!</span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTl8fGNvZGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Just some</span><br>
+        <span>Code!</span>
+      </li> 
+      <li class="w3-padding-16">
+        <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Just some</span><br>
+        <span>Code again!</span>
+      </li>   
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="https://www.w3schools.com/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Just some</span><br>
+        <span>Beautiful images!</span>
+      </li>  
+    </ul>
+  </div>
+  <hr> 
+ 
+  <!-- Labels / tags -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Popular Tags</h4>
+    </div>
+    <div class="w3-container">
+    <p><span class="w3-tag w3-light-gray w3-margin-bottom">ASTERAL</span> <span class="w3-tag w3-black w3-small w3-margin-bottom">Unreal Engine</span> <span class="w3-tag w3-black w3-small w3-margin-bottom">London</span>
+      <span class="w3-tag w3-black w3-small w3-margin-bottom">Software</span> <span class="w3-tag w3-black w3-small w3-margin-bottom">DevSight</span> <span class="w3-tag w3-black w3-small w3-margin-bottom">DIY</span>
+      <span class="w3-tag w3-black w3-small w3-margin-bottom">Cyber Security</span> <span class="w3-tag w3-black w3-small w3-margin-bottom">PHP</span> <span class="w3-tag w3-black w3-small w3-margin-bottom">Family</span>
+      <span class="w3-tag w3-black w3-small w3-margin-bottom">AUSTRINIX</span> <span class="w3-tag w3-black w3-small w3-margin-bottom">HTML</span> <span class="w3-tag w3-black w3-small w3-margin-bottom">Shopping</span>
+      <span class="w3-tag w3-black w3-small w3-margin-bottom">Tracking</span> <span class="w3-tag w3-black w3-small w3-margin-bottom">Python</span>
+    </p>
+    </div>
+  </div>
+  
+  <div class="container">
+    
+    <input class="container_toggle" type="checkbox" id="switch" name="mode">
+    <label for="switch">Toggle</label>
+</div>
+<style>
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One&display=swap");
+html {
+  background: var(--backg);
+  --btn: #2ab1ce;
+  --backg: #fff;
+  --colorx: #232323;
+	  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+html[data-theme='dartheme'] {
+  background: var(--colorx);
+  --btn: #ea4b3c;
+  --backg: #232323;
+  --colorx: #fff;
+}
+button {
+  background-color: var(--colorx);
+  color: var(--backg);
+}
+body,html,div,button {
+  background-color: var(--colorx);
+  color: var(--backg);
+}
+#id {
+  background-color: var(--colorx);
+  color: var(--backg);
+}
+h1 {
+  font-family: 'Fredoka One', cursive;
+  font-weight: 300;
+  color: var(--backg);
+}
+h4,p {
+  color: var(--backg);
+}
+h2 {
+  font-family: 'Fredoka One', cursive;
+  font-weight: 100;
+  color: var(--backg);
+}
+
+input[type=checkbox] {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+  
+}
+
+label {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  position: relative;
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 55px;
+  height: 30px;
+  background: var(--btn);
+}
+
+label:after {
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  top: 5px;
+  left: 4px;
+  transition: ease-in-out 200ms;
+}
+
+input:checked + label {
+  background: #ea4b3c;
+}
+
+input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: ease-in-out 200ms !important;
+  transition-delay: 0 !important;
+}
+</style>
+<script>
+ var checkbox = document.querySelector('input[name=mode]');
+
+checkbox.addEventListener('change', function() {
+    if(this.checked) {
+        trans()
+        document.documentElement.setAttribute('data-theme', 'dartheme')
+    } else {
+        trans()
+        document.documentElement.setAttribute('data-theme', 'lighttheme')
+    }
+})
+
+let trans = () => {
+    document.documentElement.classList.add('transition');
+    window.setTimeout(() => {
+        document.documentElement.classList.remove('transition');
+    }, 1000)
+}
+  </script>
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<div style="text-align: center;">
+  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next</button>
+</div>
+<style></style>
+
+</body>
+</html>
