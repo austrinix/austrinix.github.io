@@ -1,0 +1,19 @@
+# austrinix.github.io/
+# AUSTRINIX is a software company!
+
+# TEAM
+
+Akshat Prasad Khillar
+Aarav Bhattacharya (that's me!)
+
+# THANKS
+
+A big thanks to:
+Akshat Prasad Khillar
+Aarav Bhattacharya (that's me!)
+    
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+   C#, PHP, phpMyAdmin!
