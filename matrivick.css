@@ -1,0 +1,65 @@
+/* Matrvick CSS Framework, 
+Matrvick is an open domain. 
+Coded by AUSTRINIX! */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.black-background {
+    background-color: black;
+}
+.mb-red {
+    background-color: red
+}
+.mb-blue {
+    background-color: blue;
+}
+.mb-green {
+    background-color: green;
+}
+.mb-purple {
+    background-color: purple;
+}
+.mb-pink {
+    background-color: pink;
+}
+.mb-black {
+    background-color: black;
+}
+.mb-color-pink {
+   color: pink;
+}
+.mb-color-red {
+    color: red;
+ }
+ .mb-color-black {
+    color: black;
+ }
+ .mb-color-blue {
+    color: blue;
+ }
+ .mb-color-blue {
+    color: green;
+ }
+ .center {
+     text-align: center;
+     align-content: center;
+ }
+ button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 20px;
+  border: 2px solid black;
+ }
+ .mb-disabled,.mb-btn:disabled,.mb-button:disabled
+ {cursor:not-allowed;opacity:0.3}.mb-disabled *,:disabled *{pointer-events:none}
+
+
+
